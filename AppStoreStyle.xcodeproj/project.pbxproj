@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041336F01FC42E5A00D76BBE /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 041336EE1FC42E5A00D76BBE /* MyCell.m */; };
 		0427D2031FC40FC5009A5F05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0427D2021FC40FC5009A5F05 /* AppDelegate.m */; };
 		0427D2061FC40FC5009A5F05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0427D2051FC40FC5009A5F05 /* ViewController.m */; };
 		0427D2091FC40FC5009A5F05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0427D2071FC40FC5009A5F05 /* Main.storyboard */; };
 		0427D20B1FC40FC5009A5F05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0427D20A1FC40FC5009A5F05 /* Assets.xcassets */; };
 		0427D20E1FC40FC5009A5F05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0427D20C1FC40FC5009A5F05 /* LaunchScreen.storyboard */; };
 		0427D2111FC40FC5009A5F05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0427D2101FC40FC5009A5F05 /* main.m */; };
+		0427D21C1FC41639009A5F05 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0427D21A1FC41638009A5F05 /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		041336ED1FC42E5A00D76BBE /* MyCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		041336EE1FC42E5A00D76BBE /* MyCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
 		0427D1FE1FC40FC5009A5F05 /* AppStoreStyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStoreStyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0427D2011FC40FC5009A5F05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0427D2021FC40FC5009A5F05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		0427D20D1FC40FC5009A5F05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0427D20F1FC40FC5009A5F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0427D2101FC40FC5009A5F05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0427D21A1FC41638009A5F05 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		0427D21B1FC41639009A5F05 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				0427D2021FC40FC5009A5F05 /* AppDelegate.m */,
 				0427D2041FC40FC5009A5F05 /* ViewController.h */,
 				0427D2051FC40FC5009A5F05 /* ViewController.m */,
+				041336ED1FC42E5A00D76BBE /* MyCell.h */,
+				041336EE1FC42E5A00D76BBE /* MyCell.m */,
+				0427D21B1FC41639009A5F05 /* UIView+Extension.h */,
+				0427D21A1FC41638009A5F05 /* UIView+Extension.m */,
 				0427D2071FC40FC5009A5F05 /* Main.storyboard */,
 				0427D20A1FC40FC5009A5F05 /* Assets.xcassets */,
 				0427D20C1FC40FC5009A5F05 /* LaunchScreen.storyboard */,
@@ -142,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0427D21C1FC41639009A5F05 /* UIView+Extension.m in Sources */,
 				0427D2061FC40FC5009A5F05 /* ViewController.m in Sources */,
 				0427D2111FC40FC5009A5F05 /* main.m in Sources */,
+				041336F01FC42E5A00D76BBE /* MyCell.m in Sources */,
 				0427D2031FC40FC5009A5F05 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
